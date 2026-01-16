@@ -142,7 +142,7 @@ def apply_word_formatting(docx_path, subject, difficulty):
     
     copyright_para = doc.add_paragraph()
     set_paragraph_format(copyright_para, WD_ALIGN_PARAGRAPH.CENTER)
-    copyright_run = copyright_para.add_run("© 海盐县钟战华")
+    copyright_run = copyright_para.add_run("© University of Glasgow, Zhong Chenyu")
     set_font(copyright_run, "宋体", "Times New Roman", 10)
     
     return doc
@@ -372,5 +372,5 @@ D. $k > 1$
             st.error(f"生成过程中出现错误：{str(e)}")
 
 st.divider()
-st.caption("© 海盐县钟战华")
+st.caption("© University of Glasgow, Zhong Chenyu")
 st.caption("Powered by DeepSeek V3 & Pandoc")

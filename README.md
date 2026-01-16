@@ -55,7 +55,7 @@ streamlit run app.py
 
 ## 版权信息
 
-© 海盐县钟战华
+© University of Glasgow, Zhong Chenyu
 
 ## 许可证
 
